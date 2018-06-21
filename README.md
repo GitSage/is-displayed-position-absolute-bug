@@ -6,6 +6,7 @@ Calling `isDisplayed()` on a span or div with no contents normally results in `f
 
 1. Have `geckodriver.exe` on your `PATH`. 
 1. Clone this repo.
+1. `npm install`
 1. Serve the HTML file (for example with `http-server` package)
 1. Run `node index.js`
 
