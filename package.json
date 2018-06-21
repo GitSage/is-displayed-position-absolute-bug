@@ -1,0 +1,18 @@
+{
+  "name": "isdisplayedpositionabsolutebug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web-server": "http-server -p 7777 &",
+    "pretest": "npm run web-server",
+    "test": "node index.js",
+    "posttest": "pkill -f http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
